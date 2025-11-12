@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'BradleyGratis';
+    src: url('/Users/nadonpanwong/Desktop/ITBootcamp/NadonWebsite/fonts/Bradley Gratis.ttf') 
+    format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+  padding: 30px;
+  font-family: 'BradleyGratis';
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background: tomato;
+}
+
+.main {
+    margin-top: 100px;
+}
+/* The navigation bar */
+.navBar {
+    font-family: 'BradleyGratis';
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-left: 2%;
+}
+
+.navBar h1 {
+    color: tomato;
+}
+
+/* Links inside the navbar */
+.navBar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navBar a:hover {
+    background: tomato;
+    color: white;
+}
